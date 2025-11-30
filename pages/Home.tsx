@@ -138,7 +138,7 @@ const Home: React.FC = () => {
 
       {/* Tool Selector */}
       <div className={`grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 mb-8 transition-all duration-500 ${result ? 'scale-95 opacity-80 hover:opacity-100 hover:scale-100' : ''}`}>
-        {Object.values(AppMode).map((m) => {
+        {(Object.values(AppMode) as AppMode[]).map((m) => {
           const details = getModeDetails(m);
           const isActive = mode === m;
           return (
