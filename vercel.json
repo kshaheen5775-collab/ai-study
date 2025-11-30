@@ -1,1 +1,9 @@
-Tells Vercel to look for the 'dist' folder and handles routing rewrites.
+ {
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ],
+  "outputDirectory": "dist"
+}
