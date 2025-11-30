@@ -1,0 +1,7 @@
+{
+  "name": "StudyBuddy AI",
+  "description": "An intelligent educational assistant for students to generate study materials, check papers, and solve math problems with graphing support.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
